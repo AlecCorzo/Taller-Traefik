@@ -17,23 +17,23 @@ Traefik utiliza los **providers** para detectar cambios. Con Docker, se conecta 
 
 ### Paso 1. Verificar requisitos: Ejecutar en la terminal 'docker --version' y 'docker compose version'. 
 
-![Pantallazo: salida de la terminal con las versiones de Docker y Docker Compose](imagen1.png)
+![Pantallazo: salida de la terminal con las versiones de Docker y Docker Compose](imagen1.jpg)
 
 ### Paso 2. Levantar Traefik: Crear la configuración mínima y ejecutar 'docker compose up -d' para iniciar Traefik.
-![Pantallazo: salida de docker compose ps mostrando que Traefik está corriendo](imagen2.png)
+![Pantallazo: salida de docker compose ps mostrando que Traefik está corriendo](imagen2.jpg)
 
 ### Paso 3. Acceder al dashboard de Traefik: Abrir en el navegador la URL http://localhost:8080/dashboard/.
-![Pantallazo: captura del dashboard de Traefik abierto en el navegador](imagen3.png)
+![Pantallazo: captura del dashboard de Traefik abierto en el navegador](imagen3.jpg)
 
 ### Paso 4. Desplegar la aplicación de ejemplo: Levantar el servicio de prueba (whoami) para que Traefik lo detecte.
-![Pantallazo: terminal mostrando que el servicio de prueba se levantó correctamente](imagen4.png)
+![Pantallazo: terminal mostrando que el servicio de prueba se levantó correctamente](imagen4.jpg)
 
 ### Paso 5. Probar acceso a la aplicación: Acceder en el navegador a http://whoami.localhost o ejecutar curl http://whoami.localhost.
-![Pantallazo: evidencia de la respuesta de la aplicación (hostname o IP del contenedor)](imagen5.png)
-![Pantallazo: evidencia de la respuesta de la aplicación (hostname o IP del contenedor)](imagen5.1.png)
+![Pantallazo: evidencia de la respuesta de la aplicación (hostname o IP del contenedor)](imagen5.jpg)
+![Pantallazo: evidencia de la respuesta de la aplicación (hostname o IP del contenedor)](imagen5.1.jpg)
 
 ### Paso 6. Revisar routers en el dashboard: Ir al dashboard de Traefik a la sección HTTP Routers y confirmar que aparece whoami.localhost
-![Pantallazo: captura del dashboard mostrando el router creado para la aplicación](imagen6.png)
+![Pantallazo: captura del dashboard mostrando el router creado para la aplicación](imagen6.jpg)
 
 
 
