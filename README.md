@@ -29,11 +29,11 @@ Traefik utiliza los **providers** para detectar cambios. Con Docker, se conecta 
 ![Pantallazo: terminal mostrando que el servicio de prueba se levantó correctamente](imagen4.png)
 
 ### Paso 5. Probar acceso a la aplicación: Acceder en el navegador a http://whoami.localhost o ejecutar curl http://whoami.localhost.
-![Pantallazo: evidencia de la respuesta de la aplicación (hostname o IP del contenedor)](imagen4.png)
-![Pantallazo: evidencia de la respuesta de la aplicación (hostname o IP del contenedor)](imagen4.png)
+![Pantallazo: evidencia de la respuesta de la aplicación (hostname o IP del contenedor)](imagen5.png)
+![Pantallazo: evidencia de la respuesta de la aplicación (hostname o IP del contenedor)](imagen5.1.png)
 
 ### Paso 6. Revisar routers en el dashboard: Ir al dashboard de Traefik a la sección HTTP Routers y confirmar que aparece whoami.localhost
-![Pantallazo: captura del dashboard mostrando el router creado para la aplicación](imagen4.png)
+![Pantallazo: captura del dashboard mostrando el router creado para la aplicación](imagen6.png)
 
 
 
