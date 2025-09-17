@@ -2,6 +2,10 @@
 
 ## Actividad: Introducción a Traefik con Docker
 
+##Colaboradores
+- David Fernando Cifuentes Bohorques
+- Alec Fabian Corzo Salazar
+
 ### 1. ¿Qué ventaja aporta enrutar por host (dominio) vs por puerto?
 El enrutar por el host permite poder acceder a varios servicios usando el mismo puerto y poder diferenciarlos por el dominio o por el subdominio. Esto ayuda a que sea más fácil de manejar y tratar y facilita la escalabilidad
 Por otro lado, enrutar por puerto obliga a exponer un puerto diferente por cada servicio, lo cual hace que no escale bien.
